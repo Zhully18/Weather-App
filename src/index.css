@@ -75,30 +75,16 @@ h1{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    .grid-item {
-       padding: 30px;
+/* Media Query for Tablets (e.g., iPad) */
+@media screen and (max-width: 768px) {
+    .app .bottom {
+        grid-template-columns: repeat(2, 1fr);
     }
-   }
+}
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    .grid-item {
-       padding: 40px;
+/* Media Query for Mobile Phones */
+@media screen and (max-width: 480px) {
+    .app .bottom {
+        grid-template-columns:repeat(2, 1fr);
     }
-   }
-   
-   /* Large devices (desktops, 992px and up) */
-   @media (min-width: 992px) { 
-    .grid-item {
-       padding: 50px;
-    }
-   }
-   
-   /* Extra large devices (large desktops, 1200px and up) */
-   @media (min-width: 1200px) { 
-    .grid-item {
-       padding: 60px;
-    }
-   }
+}
