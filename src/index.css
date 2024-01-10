@@ -9,6 +9,11 @@ p{
 h1{
     font-size: 6rem;
 }
+.image{
+    height: 100px;
+    width: 100px;
+    
+}
 .app{
     width: 100%;
     min-height: 100vh;
