@@ -71,6 +71,34 @@ h1{
     text-align: center;
     margin: 1rem auto;
     padding: 1rem;
-    border-radius: 12px;
+    border-radius: 14px;
     background-color: rgba(255, 255, 255, 0.2);
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .grid-item {
+       padding: 30px;
+    }
+   }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .grid-item {
+       padding: 40px;
+    }
+   }
+   
+   /* Large devices (desktops, 992px and up) */
+   @media (min-width: 992px) { 
+    .grid-item {
+       padding: 50px;
+    }
+   }
+   
+   /* Extra large devices (large desktops, 1200px and up) */
+   @media (min-width: 1200px) { 
+    .grid-item {
+       padding: 60px;
+    }
+   }
